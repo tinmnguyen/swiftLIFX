@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2679BD7319DE5D2D00ABD289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679BD7219DE5D2D00ABD289 /* AppDelegate.swift */; };
+		2679BD7519DE5D2D00ABD289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679BD7419DE5D2D00ABD289 /* ViewController.swift */; };
+		2679BD7819DE5D2D00ABD289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2679BD7619DE5D2D00ABD289 /* Main.storyboard */; };
+		2679BD7A19DE5D2D00ABD289 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2679BD7919DE5D2D00ABD289 /* Images.xcassets */; };
+		2679BD7D19DE5D2D00ABD289 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2679BD7B19DE5D2D00ABD289 /* LaunchScreen.xib */; };
+		2679BD8919DE5D2D00ABD289 /* SwiftLifxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2679BD8819DE5D2D00ABD289 /* SwiftLifxTests.swift */; };
+		2679BDB219DE671400ABD289 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2679BDB119DE671400ABD289 /* SystemConfiguration.framework */; };
+		2679BDB419DE671E00ABD289 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2679BDB319DE671E00ABD289 /* libz.dylib */; };
+		267DD46E19EC8BC60032BEE3 /* UIColor+Hue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DD46D19EC8BC60032BEE3 /* UIColor+Hue.swift */; };
+		26F8875719E110FC006A2950 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F8875619E110FC006A2950 /* DetailViewController.swift */; };
+		64287C53630F4F9F86B1F655 /* libPods-SwiftLifx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A8C6FC572B4354862B9601 /* libPods-SwiftLifx.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2679BD8319DE5D2D00ABD289 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2679BD6519DE5D2D00ABD289 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2679BD6C19DE5D2D00ABD289;
+			remoteInfo = SwiftLifx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23A8C6FC572B4354862B9601 /* libPods-SwiftLifx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftLifx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2679BD6D19DE5D2D00ABD289 /* SwiftLifx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftLifx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2679BD7119DE5D2D00ABD289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2679BD7219DE5D2D00ABD289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2679BD7419DE5D2D00ABD289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2679BD7719DE5D2D00ABD289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2679BD7919DE5D2D00ABD289 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2679BD7C19DE5D2D00ABD289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2679BD8219DE5D2D00ABD289 /* SwiftLifxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLifxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2679BD8719DE5D2D00ABD289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2679BD8819DE5D2D00ABD289 /* SwiftLifxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SwiftLifxTests.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2679BD9419DE5E3200ABD289 /* SwiftLifx-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "SwiftLifx-Bridging-Header.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		2679BDB119DE671400ABD289 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2679BDB319DE671E00ABD289 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		267DD46D19EC8BC60032BEE3 /* UIColor+Hue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = "UIColor+Hue.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		26F8875619E110FC006A2950 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		27C9BCE5460557A3D5243C7B /* Pods-SwiftLifx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLifx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLifx/Pods-SwiftLifx.debug.xcconfig"; sourceTree = "<group>"; };
+		BD2C5CE774BE2417920113B4 /* Pods-SwiftLifx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftLifx.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftLifx/Pods-SwiftLifx.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2679BD6A19DE5D2D00ABD289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2679BDB419DE671E00ABD289 /* libz.dylib in Frameworks */,
+				2679BDB219DE671400ABD289 /* SystemConfiguration.framework in Frameworks */,
+				64287C53630F4F9F86B1F655 /* libPods-SwiftLifx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2679BD7F19DE5D2D00ABD289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2679BD6419DE5D2D00ABD289 = {
+			isa = PBXGroup;
+			children = (
+				2679BD6F19DE5D2D00ABD289 /* SwiftLifx */,
+				2679BD8519DE5D2D00ABD289 /* SwiftLifxTests */,
+				2679BD6E19DE5D2D00ABD289 /* Products */,
+				42DE2533DB684134BAE570FA /* Frameworks */,
+				6AB35EB59F70ACFF4ED2C434 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		2679BD6E19DE5D2D00ABD289 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2679BD6D19DE5D2D00ABD289 /* SwiftLifx.app */,
+				2679BD8219DE5D2D00ABD289 /* SwiftLifxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2679BD6F19DE5D2D00ABD289 /* SwiftLifx */ = {
+			isa = PBXGroup;
+			children = (
+				267DD46C19EC8B490032BEE3 /* Extensions */,
+				2679BD7219DE5D2D00ABD289 /* AppDelegate.swift */,
+				2679BD7419DE5D2D00ABD289 /* ViewController.swift */,
+				2679BD7619DE5D2D00ABD289 /* Main.storyboard */,
+				2679BD7919DE5D2D00ABD289 /* Images.xcassets */,
+				2679BD7B19DE5D2D00ABD289 /* LaunchScreen.xib */,
+				2679BD7019DE5D2D00ABD289 /* Supporting Files */,
+				2679BD9419DE5E3200ABD289 /* SwiftLifx-Bridging-Header.h */,
+				26F8875619E110FC006A2950 /* DetailViewController.swift */,
+			);
+			path = SwiftLifx;
+			sourceTree = "<group>";
+		};
+		2679BD7019DE5D2D00ABD289 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2679BD7119DE5D2D00ABD289 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2679BD8519DE5D2D00ABD289 /* SwiftLifxTests */ = {
+			isa = PBXGroup;
+			children = (
+				2679BD8819DE5D2D00ABD289 /* SwiftLifxTests.swift */,
+				2679BD8619DE5D2D00ABD289 /* Supporting Files */,
+			);
+			path = SwiftLifxTests;
+			sourceTree = "<group>";
+		};
+		2679BD8619DE5D2D00ABD289 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2679BD8719DE5D2D00ABD289 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		267DD46C19EC8B490032BEE3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				267DD46D19EC8BC60032BEE3 /* UIColor+Hue.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42DE2533DB684134BAE570FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2679BDB319DE671E00ABD289 /* libz.dylib */,
+				2679BDB119DE671400ABD289 /* SystemConfiguration.framework */,
+				23A8C6FC572B4354862B9601 /* libPods-SwiftLifx.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AB35EB59F70ACFF4ED2C434 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27C9BCE5460557A3D5243C7B /* Pods-SwiftLifx.debug.xcconfig */,
+				BD2C5CE774BE2417920113B4 /* Pods-SwiftLifx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2679BD6C19DE5D2D00ABD289 /* SwiftLifx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2679BD8C19DE5D2D00ABD289 /* Build configuration list for PBXNativeTarget "SwiftLifx" */;
+			buildPhases = (
+				B13D770A34BD47629C91A75F /* Check Pods Manifest.lock */,
+				2679BD6919DE5D2D00ABD289 /* Sources */,
+				2679BD6A19DE5D2D00ABD289 /* Frameworks */,
+				2679BD6B19DE5D2D00ABD289 /* Resources */,
+				93B0B8E305AD4A109B7C7572 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftLifx;
+			productName = SwiftLifx;
+			productReference = 2679BD6D19DE5D2D00ABD289 /* SwiftLifx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2679BD8119DE5D2D00ABD289 /* SwiftLifxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2679BD8F19DE5D2D00ABD289 /* Build configuration list for PBXNativeTarget "SwiftLifxTests" */;
+			buildPhases = (
+				2679BD7E19DE5D2D00ABD289 /* Sources */,
+				2679BD7F19DE5D2D00ABD289 /* Frameworks */,
+				2679BD8019DE5D2D00ABD289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2679BD8419DE5D2D00ABD289 /* PBXTargetDependency */,
+			);
+			name = SwiftLifxTests;
+			productName = SwiftLifxTests;
+			productReference = 2679BD8219DE5D2D00ABD289 /* SwiftLifxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2679BD6519DE5D2D00ABD289 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Skout;
+				TargetAttributes = {
+					2679BD6C19DE5D2D00ABD289 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					2679BD8119DE5D2D00ABD289 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 2679BD6C19DE5D2D00ABD289;
+					};
+				};
+			};
+			buildConfigurationList = 2679BD6819DE5D2D00ABD289 /* Build configuration list for PBXProject "SwiftLifx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2679BD6419DE5D2D00ABD289;
+			productRefGroup = 2679BD6E19DE5D2D00ABD289 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2679BD6C19DE5D2D00ABD289 /* SwiftLifx */,
+				2679BD8119DE5D2D00ABD289 /* SwiftLifxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2679BD6B19DE5D2D00ABD289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2679BD7819DE5D2D00ABD289 /* Main.storyboard in Resources */,
+				2679BD7D19DE5D2D00ABD289 /* LaunchScreen.xib in Resources */,
+				2679BD7A19DE5D2D00ABD289 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2679BD8019DE5D2D00ABD289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		93B0B8E305AD4A109B7C7572 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftLifx/Pods-SwiftLifx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B13D770A34BD47629C91A75F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2679BD6919DE5D2D00ABD289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F8875719E110FC006A2950 /* DetailViewController.swift in Sources */,
+				2679BD7519DE5D2D00ABD289 /* ViewController.swift in Sources */,
+				267DD46E19EC8BC60032BEE3 /* UIColor+Hue.swift in Sources */,
+				2679BD7319DE5D2D00ABD289 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2679BD7E19DE5D2D00ABD289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2679BD8919DE5D2D00ABD289 /* SwiftLifxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2679BD8419DE5D2D00ABD289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2679BD6C19DE5D2D00ABD289 /* SwiftLifx */;
+			targetProxy = 2679BD8319DE5D2D00ABD289 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2679BD7619DE5D2D00ABD289 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2679BD7719DE5D2D00ABD289 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2679BD7B19DE5D2D00ABD289 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2679BD7C19DE5D2D00ABD289 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2679BD8A19DE5D2D00ABD289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2679BD8B19DE5D2D00ABD289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2679BD8D19DE5D2D00ABD289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C9BCE5460557A3D5243C7B /* Pods-SwiftLifx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftLifx",
+				);
+				INFOPLIST_FILE = SwiftLifx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftLifx",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f9c3c8ca-b6c0-41cd-971b-69ad29c1ba34";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftLifx/SwiftLifx-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		2679BD8E19DE5D2D00ABD289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2C5CE774BE2417920113B4 /* Pods-SwiftLifx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftLifx",
+				);
+				INFOPLIST_FILE = SwiftLifx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftLifx",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f9c3c8ca-b6c0-41cd-971b-69ad29c1ba34";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/SwiftLifx/SwiftLifx-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		2679BD9019DE5D2D00ABD289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftLifxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLifx.app/SwiftLifx";
+			};
+			name = Debug;
+		};
+		2679BD9119DE5D2D00ABD289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftLifxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftLifx.app/SwiftLifx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2679BD6819DE5D2D00ABD289 /* Build configuration list for PBXProject "SwiftLifx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2679BD8A19DE5D2D00ABD289 /* Debug */,
+				2679BD8B19DE5D2D00ABD289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2679BD8C19DE5D2D00ABD289 /* Build configuration list for PBXNativeTarget "SwiftLifx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2679BD8D19DE5D2D00ABD289 /* Debug */,
+				2679BD8E19DE5D2D00ABD289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2679BD8F19DE5D2D00ABD289 /* Build configuration list for PBXNativeTarget "SwiftLifxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2679BD9019DE5D2D00ABD289 /* Debug */,
+				2679BD9119DE5D2D00ABD289 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2679BD6519DE5D2D00ABD289 /* Project object */;
+}

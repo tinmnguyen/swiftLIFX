@@ -1,0 +1,16 @@
+PODS:
+  - Color-Picker-for-iOS (2.0)
+  - DCIntrospect-ARC (0.0.8)
+  - LIFXKit (0.6.1)
+
+DEPENDENCIES:
+  - Color-Picker-for-iOS
+  - DCIntrospect-ARC
+  - LIFXKit
+
+SPEC CHECKSUMS:
+  Color-Picker-for-iOS: 4f02cd927f9b1d9292831bcdbd0ab55cd8ace4f6
+  DCIntrospect-ARC: 68a97cc2e99420b21bfcd66865b5376701f8e7f5
+  LIFXKit: 81032f51813a4e9aea0f7da221b7950b95181022
+
+COCOAPODS: 0.36.4
